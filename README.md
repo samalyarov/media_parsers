@@ -1,7 +1,3 @@
-# Media parsing
-
-Parsers for several common messengers and social networks (Telegram + VK)
-
 # Media parsing. 
 This is a repository with several parsers for various messengers and social networks. All have been tested an utilized in actual work. Each folder contains several files and scripts as well as a README file with description of the project as well as a list of python libraries and tools used in that project.
 
