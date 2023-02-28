@@ -9,5 +9,8 @@ Files included in repository:
 - `stats_followers.py` is a script for analysing the total number of unique followers in total groups. Not always useful due to some VK groups making their follower list private but can provide an insight into a size of target audience.
 - `stats_posts.py` is a script for preliminary analysis - how many posts are to be loaded within groups provided. Useful for asessing how much time will be necessary.
 - `vk_parser.py` is a parser script itself. It loads posts up to a select date from a list of channel IDs provided in a separate file. Can load all posts from given groups or only posts up to a certain date.
+- `loaded_check.py` is a script for analysing the current download stage. Useful due to potential connection problems with VK that force the script to crash - in order to easily see which groups still need to be loaded. Exports the data into a separate .xlsx file (for ease of comparing|copying the list)
 - `aggregating.py` is an aggregator script. After the posts and comments have been loaded - it merges them into a two .csv files for further analysis or forwarding.
 - `vk_cleaning.py` is a set of functions for easy pre-processing of data acquired for further analytics.
+
+Libraries used: vk, glob, os, time, datetime, json, openpyxl, selenium, pandas, numpy, re, stop_words, pymorphy2, nltk, tqdm
