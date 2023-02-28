@@ -9,3 +9,4 @@ Files included in repository:
 - `telegram_parser.py` is a parser script itself
 - `aggregating.py` is an aggregator script. After the messages have been loaded in merges them into a single .csv file for further analysis or forwarding.
 
+*Libraries used: telethon, glob, configparser, json, pandas*
