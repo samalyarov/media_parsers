@@ -13,4 +13,4 @@ Files included in repository:
 - `aggregating.py` is an aggregator script. After the posts and comments have been loaded - it merges them into a two .csv files for further analysis or forwarding.
 - `vk_cleaning.py` is a set of functions for easy pre-processing of data acquired for further analytics.
 
-Libraries used: vk, glob, os, time, datetime, json, openpyxl, selenium, pandas, numpy, re, stop_words, pymorphy2, nltk, tqdm
+*Libraries used: vk, glob, os, time, datetime, json, openpyxl, selenium, pandas, numpy, re, stop_words, pymorphy2, nltk, tqdm*
