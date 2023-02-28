@@ -10,3 +10,4 @@ Files included in repository:
 - `stats_posts.py` is a script for preliminary analysis - how many posts are to be loaded within groups provided. Useful for asessing how much time will be necessary.
 - `vk_parser.py` is a parser script itself. It loads posts up to a select date from a list of channel IDs provided in a separate file. Can load all posts from given groups or only posts up to a certain date.
 - `aggregating.py` is an aggregator script. After the posts and comments have been loaded - it merges them into a two .csv files for further analysis or forwarding.
+- `vk_cleaning.py` is a set of functions for easy pre-processing of data acquired for further analytics.
