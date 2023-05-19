@@ -3,6 +3,7 @@ This is a repository with several parsers for various messengers and social netw
 
 | Project name | Project Description | Libraries and tools used |
 | :--------------------: | :---------------------: |:---------------------------:|
-| [1.VK parser](https://github.com/samalyarov/media_parser/tree/main/vk_parser) | A parser for VK social network most common in Russia and other CIS countries | *vk, glob, os, time, datetime, json, openpyxl, selenium, pandas, numpy, re, stop_words, pymorphy2, nltk, tqdm* |
-| [2.Telegram parser](https://github.com/samalyarov/media_parser/tree/main/telegram_parser) | A parser for Telegram messenger app | *telethon, glob, configparser, json, pandas* |
+| [1.VK parser](https://github.com/samalyarov/media_parser/tree/main/vk_parser) | A parser for posts and comments in VK social network most common in Russia and other CIS countries | *vk, glob, os, time, datetime, json, openpyxl, selenium, pandas, numpy, re, stop_words, pymorphy2, nltk, tqdm* |
+| [2.VK user parser](https://github.com/samalyarov/media_parser/tree/main/vk_user_parser) | A parser for users in VK social network. Returns users based on certain search criteria  | *vk, numpy, pandas, json, glob, re, time * |
+| [3.Telegram parser](https://github.com/samalyarov/media_parser/tree/main/telegram_parser) | A parser for Telegram messenger app | *telethon, glob, configparser, json, pandas* |
 
