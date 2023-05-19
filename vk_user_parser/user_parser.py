@@ -41,7 +41,7 @@ for hometown in monitor_cities.keys():
         current_users = vkapi.users.search(offset=off, # Current offset
                                            count=max_user_count, # How many users to return each cycle
                                            fields=['city', 'last_seen', 'home_town'], # What extra data to return
-                                           age_from=15,
+                                           age_from=20,
                                            age_to=25,
                                            hometown=hometown,
                                            v=5.131
